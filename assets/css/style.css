@@ -1,0 +1,121 @@
+/* Header and Navigation */
+
+.navbar {
+    background-color: white;
+    margin-top: 50px;
+    border: solid 1px;
+    border-color: #777777;
+}
+
+.navbar-links h1{
+    margin-left: 100px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: white;
+    display: inline-block;
+    height: 80px;
+    width: 200px;
+    
+}
+ul.topnav {
+    list-style-type: none;
+    margin-right: 150px;
+    padding: 0;
+    overflow: visible;
+    background: white;
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #777777;
+    text-align: right;
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-right: 50px;
+}
+
+ul.topnav li a:hover {
+    background-color: #f0f5f5;
+    text-decoration: none;
+}
+
+ul.topnav li a:visted {
+    color: #777777;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+/* About Me */
+
+#AboutMe {
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 550px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #777777;
+    
+    
+}
+
+#AboutMe h1 {
+    font-size: 30px;   
+    color: #4aaaa5;
+}
+
+#AboutMe img {
+    width: 300px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+#AboutMe p {
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 130%;
+}
+
+#Connect {
+    float: right;
+    background-color: white;
+    margin-top: -545px; /* wtf is this even the right?? */
+    margin-right: 280px;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #777777;
+}
+
+#Connect h2{
+    font-size: 20px;   
+    color: #4aaaa5;
+    text-align: center;
+}
+
+#icon-list ul li {
+    display: inline-block;
+    list-style-image: none; /* WTF */
+}
+
+#icon-list a img {
+    width: 50px;
+    list-style-image: none;
+}
