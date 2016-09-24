@@ -5,6 +5,7 @@
     margin-top: 50px;
     border: solid 1px;
     border-color: #777777;
+    position: static;
 }
 
 .navbar-links h1{
@@ -55,29 +56,33 @@ ul.topnav li a:visted {
     color: #777777;
 }
 
+
+/* Body */
+
 body {
     background-color: #D3D3D3;
 }
 
-/* About Me */
 
-#AboutMe {
+/*** Generic Content ***/
+
+.content {
     background-color: white;
     margin-top: 50px;
     margin-left: 100px;
     width: 550px;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: 1px solid #777777;
-    
+    padding: 20px 30px 20px 30px;
+    border: 1px solid #777777; 
     
 }
 
-#AboutMe h1 {
+.content h1 {
     font-size: 30px;   
     color: #4aaaa5;
 }
+
+
+/* About Me */
 
 #AboutMe img {
     width: 300px;
@@ -92,15 +97,26 @@ body {
     line-height: 130%;
 }
 
+/* Portfolio */
+
+.work-img ul li {
+    vertical-align: middle;
+
+}
+.work-img img {
+    width: 300px;
+    list-style-type: none;
+}
+
+
+/* Connect */
+
 #Connect {
     float: right;
     background-color: white;
-    margin-top: -545px; /* wtf is this even the right?? */
-    margin-right: 280px;
+    margin: -620px 250px;/* wtf is this even the right?? */
     width: 200px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     border: 1px solid #777777;
 }
 
@@ -110,12 +126,36 @@ body {
     text-align: center;
 }
 
-#icon-list ul li {
+#Connect ul li {
     display: inline-block;
-    list-style-image: none; /* WTF */
+    overflow: visible;
+    padding: -20px;
+    float: right;
+    list-style-image: none; 
+    vertical-align: middle;
 }
 
 #icon-list a img {
     width: 50px;
     list-style-image: none;
 }
+
+
+/* Footer */
+
+footer {
+    border-top: 10px solid #4aaaa5;
+    margin-top: 30px;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    background-color: #5b5b5b;
+}
+
+footer p {
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+
