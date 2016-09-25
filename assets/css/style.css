@@ -34,17 +34,17 @@ ul.topnav {
 
 ul.topnav li {
     float: left;
-}
-
-ul.topnav li a {
     display: inline-block;
-    color: #777777;
     text-align: right;
-    text-decoration: none;
     padding-top: 30px;
     font-size: 14px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin-right: 50px;
+    margin-right: 40px;
+}
+
+ul.topnav li a {
+    text-decoration: none;
+    color: #777777;
 }
 
 ul.topnav li a:hover {
@@ -70,9 +70,12 @@ body {
     background-color: white;
     margin-top: 50px;
     margin-left: 100px;
-    width: 550px;
-    padding: 20px 30px 20px 30px;
+    margin-bottom: 20px;
+    width: 60%;
+    position: relative;
+    padding: 20px 2px 20px 20px;
     border: 1px solid #777777; 
+    float: left;
     
 }
 
@@ -97,27 +100,62 @@ body {
     line-height: 130%;
 }
 
+
 /* Portfolio */
 
-.work-img ul li {
-    vertical-align: middle;
+.images img {
+    width: 98%;
+    margin: auto;
+    padding: 0;
+}
 
+#left.images {
+    float: left;
+    position: relative;
+    width: 50%;
 }
-.work-img img {
-    width: 300px;
-    list-style-type: none;
+
+#right.images {
+    float: right;
+    position: relative;
+    width: 50%;
 }
+
+.app-name {
+    text-align: center;
+    background-color: #4aaaa5;
+    opacity: .85;
+    width: 98%;
+    padding: 5px 0 10px 0;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: auto;
+    
+    
+}
+ 
+.app-name p {
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
 
 
 /* Connect */
 
-#Connect {
-    float: right;
+#Connect .container {
+    
+    float:right;
     background-color: white;
-    margin: -620px 250px;/* wtf is this even the right?? */
-    width: 200px;
-    padding: 20px;
+    width: 25%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 20px;
     border: 1px solid #777777;
+    display: inline;
 }
 
 #Connect h2{
@@ -128,16 +166,16 @@ body {
 
 #Connect ul li {
     display: inline-block;
-    overflow: visible;
-    padding: -20px;
-    float: right;
-    list-style-image: none; 
-    vertical-align: middle;
+    margin: auto;
+    width: 24%; 
+    
 }
 
 #icon-list a img {
-    width: 50px;
+    width: 100%;
+    padding: 20px 0 20px 0;
     list-style-image: none;
+   
 }
 
 
@@ -149,6 +187,7 @@ footer {
     padding: 40px 0px 40px 0px;
     text-align: center;
     background-color: #5b5b5b;
+    clear: both;
 }
 
 footer p {
