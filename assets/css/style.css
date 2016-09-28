@@ -1,139 +1,133 @@
 /* Header and Navigation */
-
-.navbar {
-    background-color: white;
-    margin-top: 50px;
-    border: solid 1px;
-    border-color: #777777;
-    position: static;
+header {
+	background-color: #ffffff;
+	border-bottom: solid 1px #cccccc;
+	clear: both;
+	height: 70px;
+	margin-bottom: 40px;
+	width: 100%;
 }
 
-.navbar-links h1{
-    margin-left: 100px;
-    text-align: center;
-    line-height: 80px;
-    font-size: 30px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-    color: white;
-    display: inline-block;
-    height: 80px;
-    width: 200px;
-    
+#header {
+	width: 960px;
+	margin: 0 auto;
 }
 
-ul.topnav {
-    list-style-type: none;
-    margin-right: 150px;
-    padding: 0;
-    overflow: visible;
-    background: white;
-    float: right;
-    text-decoration: none;
-    display: inline-block;
+nav {
+	font-family: Arial, "Helvetica Neue", Helvetica, serif;
+	float: right;
+	height: 30px;
+	list-style-type: none;
+	margin-right: auto;
+	padding: 20px 0 20px 0;
+	width: 270px;
 }
 
-ul.topnav li {
-    float: left;
-    display: inline-block;
-    text-align: right;
-    padding-top: 30px;
-    font-size: 14px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin-right: 40px;
+.nav_item {
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin: 0;
+	text-align: center;
+	width: 69px;
+	vertical-align: middle;
 }
 
-ul.topnav li a {
-    text-decoration: none;
-    color: #777777;
+.nav_list {
+	margin: 0 auto;
+
+}
+.nav_link {
+	color: #777777;
+	font-size: 12px;
+	padding: 0 10px 0 10px;
+	text-decoration: none;
 }
 
-ul.topnav li a:hover {
+
+ul.nav_list li a:hover {
     background-color: #4aaaa5;
     opacity: .6;
     text-decoration: none;
 }
 
-ul.topnav li a:visted {
+ul.nav_list li a:visted {
     color: #777777;
 }
 
 
 /* Body */
+main {
+	background-color: #ffffff;
+	clear: both;
+	margin: 0 auto 0 auto;
+	width: 960px;
+}
+
+article {
+	background-color: #ffffff;
+	float: left;
+	margin-bottom: 40px;
+	padding: 20px;
+	width: 610px;
+}
 
 body {
-    background-color: #D3D3D3;
+	background-image: url("../images/bg-img.png");
+	min-height: 100%;
 }
 
-
-/*** Generic Content ***/
-
-.content {
-    background-color: white;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    width: 60%;
-    position: relative;
-    padding: 20px 2px 20px 20px;
-    border: 1px solid #777777; 
-    float: left;
-    
+h1 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	float: left;
+	font-family: Georgia, Times, "Times New Roman", sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	margin: 0 0 0 auto;
+	padding: 20px;
+	vertical-align: middle;
+	width: auto;
 }
 
-.content h1 {
-    font-size: 30px;   
-    color: #4aaaa5;
+h2 {
+	color: #4aaaa5;
+	border-bottom: 1px solid #777777;
+	font-family: Georgia, Times, "Times New Roman", sans-serif;
+	font-size: 24px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 /* Connect */
-
-#Connect .container {
-    
-    float:right;
-    background-color: white;
-    width: 25%;
-    padding: 10px;
-    margin-top: 50px;
-    margin-right: 20px;
-    border: 1px solid #777777;
-    display: inline;
+aside {
+	background-color: #ffffff;
+	float: right;
+	vertical-align: top;
+	height: auto;
+	width: 230px;
+	padding: 20px;
 }
 
-#Connect h2{
-    font-size: 20px;   
-    color: #4aaaa5;
-    text-align: center;
+#icon-list img{
+    float: left;
+	height: 70px;
+	width: 70px;
 }
-
-#Connect ul li {
-    display: inline-block;
-    margin: auto;
-    width: 24%; 
-    
-}
-
-#icon-list a img {
-    width: 100%;
-    padding: 20px 0 20px 0;
-    list-style-image: none;
-   
-}
-
 
 /* About Me */
 
-#AboutMe img {
+.aboutme-img {
     width: 300px;
     float: left;
     margin: 0px 20px 20px 0px;
 }
 
-#AboutMe p {
-    font-size: 14px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    line-height: 130%;
+.aboutme p {
+    color: #666666;
+	font-family: Arial, "Helvetica Neue", Helvetica, serif;
+	font-size: 12px;
+	line-height: 20px;
 }
 
 

@@ -10,47 +10,34 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
 </head>
-
+<body>
     <!-- Header -->
-    <header class="header" id="Home">
+    <header>
         
     <!-- Navigation -->
-    <nav class="navbar">
-              
-           <div class="container">    
-                
-                <div class="navbar-links">
-                    <h1>Kevin Duong</h1>
-                       <ul class="topnav" id="myTopNav">
-                        <li><a href="/index.html" class="nav-item">ABOUT</a></li>
-                        <li>|</li>
-                        <li><a href="/portfolio.html" class="nav-item">PORTFOLIO</a></li>
-                        <li>|</li>
-                        <li><a href="/contact.html" class="nav-item">CONTACT</a></li>  
-                    </ul>
-                    
-                    
-                    
-                    </div>
+        <div id="header">
+			<h1>Kevin Duong</h1>
+			<nav>
+			
+				<ul class="nav_list">
+					<li class="nav_item"><a  class="nav_link active" id="about" href="index.html">About</a></li>
+					<li class="nav_item" ><a class="nav_link" id="portfolio" href="portfolio.html">Portfolio</a></li>
+					<li class="nav_item"><a class="nav_link" id="contact" href="contact.html">Contact</a></li>
+					
+				</ul>
+			</nav>
+		</div>         
             
-                </div>
-            </nav>         
-            
-            </header>  
+ </header>   
 
-<body>
-
-    
     <!-- Content -->
     
-    <section class="content">
-        
-        <div id="AboutMe">
+	<main>
+		<article>
+			<h2>About Me</h2>
            
-            <h1>About Me</h1>
-                <hr><br>
-            
-            <img src="assets/images/profile.jpg" alt="Profile">
+            <div class="aboutme">
+            <img class="aboutme-img" src="assets/images/profile.jpg">
         
             <p>Kevin Duong is a Southeast Asian do-gooder raised in San Gabriel Valley, but now reps <b>East Los Angeles.</b></p><br>
             
@@ -63,34 +50,34 @@
             
             <p>Kevin is a boba and burger aficionado.  He also wants a farm of dogs when he retires one day.</p>
             
-        </div>
-    </section>
+            </div>
+       
+        
+        </article>
+
        
     <!-- Connect with Me -->
     
-    <section id="Connect">
+    <aside>
     
        <div class="container">
         <h2>Connect with Me</h2>
-        <br><hr><br>
+
         <ul id="icon-list">
             <li><a href="#"><img src="assets/images/linkedin-icon.png"></a></li>         
             <li><a href="#"><img src="assets/images/github-icon.png"></a></li>
-            <li><a href="#"><img src="assets/images/twitter-icon.png"></a></li>
-            <li><a href="#"><img src="assets/images/instagram-icon.png"></a></li>
+            <li><a href="#"><img src="assets/images/stackoverflow-icon.png"></a></li>
         </ul>
         
-        
         </div>
-    </section>
+    </aside>
        
-        
-</body>
+    </main>
 
 <footer>
     
         <p>©Copyright 2016 Kevin Duong</p>
     
-</footer>
-
+    </footer>
+</body>
 </html>
